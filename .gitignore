@@ -1,0 +1,24 @@
+.# Ambientes Virtuais
+venv/
+.env/
+
+# Arquivos temporários
+*.log
+*.bak
+*.swp
+
+# Dependências de pacotes
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de configuração específicos da máquina (caso haja)
+*.env
+
+# Arquivos de IDEs (caso esteja usando algum editor como PyCharm ou VSCode)
+.idea/
+.vscode/
+
+# Arquivos de sistema (ex: macOS, Windows)
+.DS_Store
+Thumbs.db
