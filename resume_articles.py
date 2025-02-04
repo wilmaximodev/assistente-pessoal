@@ -1,10 +1,5 @@
-#resume_articles.py
-import google.generativeai as genai
-import os
+from gemini import genai
 import PyPDF2
-
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-genai.configure(api_key=GEMINI_API_KEY)
 
 model = genai.GenerativeModel(model_name='gemini-1.5-flash')
 

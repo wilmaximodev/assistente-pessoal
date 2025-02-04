@@ -1,12 +1,5 @@
-#recipes.py
-import google.generativeai as genai
-import os
+from gemini import genai
 import gradio as gr
-
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-genai.configure(api_key=GEMINI_API_KEY)
-
-#assistente de receitas
 
 initial_prompt = (
     "Você é um assistente de receitas culinárias. Você fornece receitas baseadas nos ingredientes fornecidos"
